@@ -418,12 +418,11 @@
  ;;   - :triple-lowbar (default)
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
-:file/name-format :triple-lowbar
+ :file/name-format :triple-lowbar}
 
 :git/auto-commit? true
 :git/auto-push? true
 :git/auto-pull? true
 :git/commit-delay 2000
 :git/use-system-git? true
-:git/show-error-popup? true}
-
+:git/show-error-popup? true
